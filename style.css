@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.icono-inicio li{
+    float: left;
+    list-style: none;
+    margin-bottom: 100px;
+}
+
+.d-flex{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.nav a{
+    margin-right: 50px;
+    font-size: 25px;
+    font-family: 'Roboto';
+    src: url(./tipografias/Roboto/Roboto-Regular.ttf);
+    color: #696E5E;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./tipografias/Roboto/Roboto-Regular.ttf);
+    color: #696E5E;
+}
+
+.imagen-inicio img{
+    width: 100%; 
+    margin: 0 auto;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+
+/*productos*/
+
+
+.productos-p p{
+    float: left;
+    font-size: 20px;
+    font-family: 'Roboto';
+    src: url(./tipografias/Roboto/Roboto-Regular.ttf);
+    color: #696E5E;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.contenedor-productos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 180px;
+}
+
+.boton{
+    background-color:rgb(250, 229, 223);
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.boton img{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+/*blog*/
+
+.imagen-blog{
+    float: left;
+    width: 700px;
+    height: 700px;
+    margin-left: -220px;
+    padding: 0 20px;
+}
+
+.sub-titulo {
+    margin-top: 100px;
+    margin-right: 0px;
+}
+
+
+.texto{
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.leer-mas{
+    background-color:rgb(250, 229, 223);
+    width: 100px;
+    margin-left: 200px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*prensa*/
+
+
+.video iframe{
+    width: 700px; 
+    height: 400px; 
+    margin-left: 70px;
+}
+
+
+.sub-prensa{
+    margin-left: 50px;
+}
+
+
+
+/*contactos*/
+
+
+
+.flex-shrink-0{
+    margin-top: 100px;
+    margin-left: -200px;
+}
+
+.flex-grow-1{
+    margin-top: 100px;
+}
+
+.form-control{
+    background-color:rgb(250, 229, 223);
+}
+
+.mensaje{
+    margin-left: 30px;
+}
+
+
+
+.btn-primary{
+    font-family: 'Roboto';
+    src: url(./tipografias/Roboto/Roboto-Regular.ttf);
+    background-color:#696E5E;
+    border: #696E5E;
+    margin-top: 20px;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(./tipografias/Roboto/Roboto-Regular.ttf);
+    color: #696E5E;
+}
+
+
+
+.texto-cont{
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 600px;
+    font-size: 20px;
+}
+
+.imag-cont{
+    float: left;
+    margin-left: -200px;
+    margin-bottom: 30px;
+}
+
+.mensaje{
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pie-pagina{
+    background-color: #696E5E;
+    margin: auto;
+    padding: 5px;
+    color:white;
+    font-family: "display";
+    src: url(./tipografias/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+    font-size: 20px;
+    margin-top: 100px;
+    border-bottom: none ;
+}
+
+
+
+
+
